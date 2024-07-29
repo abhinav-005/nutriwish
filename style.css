@@ -4,7 +4,6 @@
 }
 .header{
     background: url(headerbg.jpg);
-    /* background-image: linear-gradient(rgb(39, 223, 39),rgb(188, 246, 188)); */
     background-attachment: scroll;
     background-position: center;
     padding-bottom: 30px;
@@ -51,6 +50,7 @@
 .top {
     float: left;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -140,6 +140,7 @@
     margin-right: auto;
     display: block;
     height: 19vh;
+    width: auto;
     padding: 5px;
     /* -webkit-filter: drop-shadow(5px 5px 5px black ); */
     filter: drop-shadow(2px 1px 4px black);
