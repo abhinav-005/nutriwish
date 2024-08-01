@@ -50,6 +50,19 @@ body {
 
 
 }
+@media (max-width: 480px) {
+    .home-div{
+        display: flex;
+        justify-content: space-between;
+        flex: 2;
+        flex-shrink: 0;
+        position: absolute;
+        top:67px;
+        left:-200px;
+        transform: scale(0.9);
+    }
+    
+}
 
 .home-button {
     color: yellow;
