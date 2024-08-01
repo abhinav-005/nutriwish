@@ -58,8 +58,8 @@ body {
         flex-shrink: 0;
         position: absolute;
         top:67px;
-        left:-200px;
-        transform: scale(0.9);
+        left:-220px;
+        transform: scale(0.7);
     }
     
 }
